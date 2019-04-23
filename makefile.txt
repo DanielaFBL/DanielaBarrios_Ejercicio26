@@ -1,0 +1,10 @@
+all: euler_001.dat euler_01.dat euler_1.dat 
+
+%.dat: DanielaBarrios_Ejercicio26.x
+	./DanielaBarrios_Ejercicio26.x
+
+DanielaBarrios_Ejercicio26.x: DanielaBarrios_Ejercicio26.cpp
+	c++ DanielaBarrios_Ejercicio26.cpp -o DanielaBarrios_Ejercicio26.x
+
+clean:
+	rm -rf *.x *.dat
