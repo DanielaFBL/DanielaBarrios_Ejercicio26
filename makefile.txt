@@ -1,4 +1,4 @@
-all: euler.dat
+all: euler.dat rk4.dat leapfrog.dat
 
 %.dat: DanielaBarrios_Ejercicio26.x
 	./DanielaBarrios_Ejercicio26.x
