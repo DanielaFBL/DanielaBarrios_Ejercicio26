@@ -1,4 +1,4 @@
-all: euler_001.dat euler_01.dat euler_1.dat 
+all: euler.dat
 
 %.dat: DanielaBarrios_Ejercicio26.x
 	./DanielaBarrios_Ejercicio26.x
